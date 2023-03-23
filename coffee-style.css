@@ -19,6 +19,10 @@ body{
 .coffee-shadow{
   text-shadow: 0.1vw 0.1vw #6e5235;
 }
+.black-shadow{
+  text-shadow: 0.2vw 0.2vw black;
+}
+
 .coffee-border{
   border-color: #6e5235;
   border-style: solid;
@@ -74,6 +78,7 @@ body{
   margin-top: 1vw;
   margin-right: 1vw;
 }
+
 .star{
   color: orange;
 }
