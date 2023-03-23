@@ -1,0 +1,99 @@
+body{
+	background-color:#d8cfca;
+}
+.background-img{
+	background-image: url("images/banner/coffeebanner7.jpg");
+}
+.bg-coffee{
+	background-color:#6e5235;
+}
+.bg-milk{
+	background-color:#d8cfca;
+}
+.tx-milk{
+  color:#d8cfca; 
+}
+.spanprice{
+  color:#6e5235;
+}
+.coffee-shadow{
+  text-shadow: 0.1vw 0.1vw #6e5235;
+}
+.coffee-border{
+  border-color: #6e5235;
+  border-style: solid;
+  border-width: thick;
+}
+.coffee-border-right{
+  border-color: #6e5235;
+  border-right-style: solid;
+  border-width: thick;
+}
+
+.coffee-border-left{
+  border-color: #6e5235;
+  border-left-style: solid;
+  border-width: thick;
+}
+/* Menu Gallery Start */
+
+.coffeeslide {
+  display: none;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+.coffee-container {
+  text-align: center;
+  background-color: #6e5235;
+  color: white;
+}
+
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+/* Menu Gallery End */
+
+.placethebutton{
+  bottom: 2vw;
+  right: 4vw;
+}
+.bottom-25{
+  bottom: 25%;
+}
+
+.close-button{
+  margin-top: 1vw;
+  margin-right: 1vw;
+}
+.star{
+  color: orange;
+}
+.star-1{
+  font-size: 225%;
+  color: orange;
+}
+.star-2{
+  font-size: 200%;
+  color: orange;
+}
+.star-3{
+  font-size: 175%;
+  color: orange;
+}
+.star-4{
+  font-size: 150%;
+  color: orange;
+}
+.star-5{
+  font-size: 125%;
+  color: orange;
+}

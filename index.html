@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Home</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="coffee-style.css">
+</head>
+<body>
+	<nav class="navbar navbar-expand-md bg-coffee" >
+		<div class="container-fluid">
+			<a class="navbar-brand" href="index.html">
+				<img src="images/icons/textlogo.png" width="30%" alt="text logo" class="img-fluid">
+			</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarcoffee" aria-controls="navbarcoffee" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarcoffee">
+				<ul class="navbar-nav me-auto mb-2 mb-md-0">
+					<li class="nav-item">
+						<a class="nav-link link-dark active" aria-current="page" href="index.html">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link link-light" href="product.html">Product</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link link-light" href="location.html">Location</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link link-light" href="about.html">About</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link link-light" href="contact.html">Contact</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link link-light" href="gallery.html">Gallery</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<!--Content-->
+	<div class="position-relative">
+		<img src="images/banner/coffeebanner7.jpg" width="100%" class="img-fluid">
+		<div class="container-md position-absolute" style="top:10vw; left: 10vw;">
+			<p class="fs-2 text-light coffee-shadow">FRESH COFFEE BEANS.</p>
+			<p class="fs-2 text-light coffee-shadow">ROASTED IN BUKIDNON.</p>
+			<a href="product.html"><button type="button" class="btn btn-light rounded-pill">SHOP NOW</button></a>
+			<a href="about.html"><button type="button" class="btn btn-light rounded-pill">LEARN MORE</button></a>
+		</div>	
+	</div>
+	<div class="container-md text-center bg-milk">
+		<h1 class="display-1 mb-5">Have a Good Coffee!</h1>
+		<div class="row">
+			<!-- Border Box -->
+			<div class="container-md-fluid">
+				<div class="col-md-12 mt-5 mb-5">
+					<div class="row">
+						<div class="col-md-4">
+							<a href="product.html #coffeebeans"><img src="images/icons/coffee-beans.png" class="img-fluid" width="50%"></a>
+							<h5>Our Coffee Beans</h5>
+							<p>Coffee, beverage brewed from the roasted and ground seeds of the tropical evergreen coffee plants.</p>
+							<a href="product.html #coffeebeans"><button type="button" class="btn btn-secondary btn-sm">SHOP NOW</button></a>		
+						</div>
+						<div class="col-md-4">
+							<a href="product.html"><img src="images/icons/coffee.png" class="img-fluid" width="50%"></a>
+							<h5>Our Brewed Coffee</h5>
+							<p>Try our best selection of brewed coffee from Espresso to Café Latte at our shop.</p>
+							<a href="product.html"><button type="button" class="btn btn-secondary btn-sm">LEARN MORE</button></a>
+						</div>
+						<div class="col-md-4">
+							<a href="about.html"><img src="images/icons/coffee-plant.png" class="img-fluid" width="50%"></a>
+							<h5>Why Coffee?</h5>
+							<p>Coffee consumption has been associated with various health benefits.</p>
+							<a href="about.html"><button type="button" class="btn btn-secondary btn-sm">LEARN MORE</button></a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!--Carousel-->
+			<div class="col-md-12 mb-5">
+				<div id="carouselcoffee" class="carousel slide" data-bs-ride="carousel">
+					<div class="carousel-indicators">
+						<button type="button" data-bs-target="#carouselcoffee" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+						<button type="button" data-bs-target="#carouselcoffee" data-bs-slide-to="1" aria-label="Slide 2"></button>
+						<button type="button" data-bs-target="#carouselcoffee" data-bs-slide-to="2" aria-label="Slide 3"></button>
+					</div>
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+							<a href="product.html"><img src="images/background/bg-img7-1.jpg" class="d-block w-100 rounded-5" alt="product"></a>
+							<div class="carousel-caption d-none d-md-block">
+								<a href="product.html" class="link-light text-decoration-none"><h5>Product</h5>
+								<p>Are own roasted coffee beans</p></a>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<a href="location.html"><img src="images/background/bg-img4-1.jpg" class="d-block w-100 rounded-5" alt="location"></a>
+							<div class="carousel-caption d-none d-md-block">
+								<a href="location.html" class="link-light text-decoration-none"><h5 class="">Location</h5>
+								<p>Find us Here</p></a>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<a href="menu.html"><img src="images/background/bg-img1.jpg" class="d-block w-100 rounded-5" alt="menu"></a>
+							<div class="carousel-caption d-none d-md-block">
+								<a href="menu.html" class="link-light text-decoration-none"><h5>Menu</h5>
+								<p>Are own selection</p></a>
+							</div>
+						</div>
+						<button class="carousel-control-prev" type="button" data-bs-target="#carouselcoffee" data-bs-slide="prev">
+							<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+							<span class="visually-hidden">Previous</span>
+						</button>
+						<button class="carousel-control-next" type="button" data-bs-target="#carouselcoffee" data-bs-slide="next">
+							<span class="carousel-control-next-icon" aria-hidden="true"></span>
+							<span class="visually-hidden">Next</span>
+						</button>
+					</div>
+				</div>
+			</div>
+
+			<!-- Product -->
+			<div class="container-md">
+				<h4 class="display-5 mt-5"><a href="product.html" class="link-dark text-decoration-none">Products</a></h4>
+				<p>Try our best coffee beans.</p>
+				<div class="row mb-5 me-5 ms-5 g-4 text-start">
+					<div class="col-md">
+						<a class="text-decoration-none link-dark" data-bs-toggle="modal" data-bs-target="#coffee-item1">
+						<div class="card bg-milk border-0">
+							<img src="images/coffee/coffeeproduct.jpg" class="img-fluid rounded-circle" width="100%">
+							<div class="card-body">
+								<div class="row">
+									<div class="col-12 text-center">
+										<span class="star-5">&starf;&starf;&starf;&starf;&star;</span>
+									</div>
+									<div class="col-8">
+										<p class="card-text"><b>Arabica light</b><br>100g</p></div>
+									<div class="col-4">
+										<span class="card-text spanprice fs-5 fw-bold">₱130</span>
+									</div>
+								</div>
+								
+							</div>
+						</div></a>
+					</div>
+					<div class="col-md">
+						<a class="text-decoration-none link-dark" data-bs-toggle="modal" data-bs-target="#coffee-item2"><div class="card bg-milk border-0">
+							<img src="images/coffee/arabicamedium.jpg" class="img-fluid rounded-circle" width="100%">
+							<div class="card-body">
+								<div class="row">
+									<div class="col-12 text-center">
+										<span class="star-5">&starf;&starf;&starf;&starf;&starf;</span>
+									</div>
+									<div class="col-8">
+										<p class="card-text"><b>Arabica medium</b><br>100g</p>
+									</div>
+									<div class="col-4">
+										<span class="card-text spanprice fs-5 fw-bold">₱130</span>
+									</div>
+								</div>
+							</div>
+						</div></a>
+					</div>
+					<div class="col-md">
+						<a class="text-decoration-none link-dark" data-bs-toggle="modal" data-bs-target="#coffee-item3">
+						<div class="card bg-milk border-0">
+							<img src="images/coffee/arabicadark.png" class="img-fluid rounded-circle" width="100%">
+							<div class="card-body">
+								<div class="row">
+									<div class="col-12 text-center">
+										<span class="star-5">&starf;&starf;&starf;&starf;&star;</span>
+									</div>
+									<div class="col-8">
+										<p class="card-text"><b>Arabica Dark</b><br>100g</p>
+									</div>
+									<div class="col-4">
+										<span class="card-text spanprice fs-5 fw-bold">₱130</span>
+									</div>
+								</div>
+							</div>
+						</div></a>
+					</div>
+					<div class="col-md">
+						<a href="product.html #coffeebeans" class="text-decoration-none link-dark">
+						<div class="card bg-milk border-0">
+							<img src="images/coffee/arabicadark.png" class="img-fluid rounded-circle opacity-50" width="100%">
+							<div class="card-body">
+								<p class="lh-sm text-center"><b>More<br></p>
+							</div>
+						</div></a>
+					</div>
+				</div>
+			</div>	
+		</div>
+
+		<!--Modals-->
+		<div class="modal fade" id="coffee-item1" tabindex="-1" aria-hidden="true">
+			<div class="modal-dialog modal-dialog-centered">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h1 class="modal-title fs-5" id="coffee-item1">Arabica Light roasted 100g</h1>
+						<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+					</div>
+					<div class="modal-body">
+						<img src="images/coffee/coffeeproduct.jpg" class="img-fluid rounded-circle" width="100%">
+					</div>
+					<div class="modal-footer">
+						<p>₱130</p>
+						<span class="star-5 ms-5 text-start">&starf;&starf;&starf;&starf;&star;</span>
+					</div>
+				</div>
+			</div>	
+		</div>
+		<div class="modal fade" id="coffee-item2" tabindex="-1" aria-hidden="true">
+			<div class="modal-dialog modal-dialog-centered">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h1 class="modal-title fs-5" id="coffee-item2">Arabica Medium roasted 100g</h1>
+						<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+					</div>
+					<div class="modal-body">
+						<img src="images/coffee/arabicamedium.jpg" class="img-fluid rounded-circle" width="100%">
+					</div>
+					<div class="modal-footer">
+						<p>₱130</p>
+						<span class="star-5 ms-5 text-start">&starf;&starf;&starf;&starf;&starf;</span>
+					</div>
+				</div>
+			</div>	
+		</div>
+		<div class="modal fade" id="coffee-item3" tabindex="-1" aria-hidden="true">
+			<div class="modal-dialog modal-dialog-centered">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h1 class="modal-title fs-5" id="coffee-item3">Arabica Dark roasted 100g</h1>
+						<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+					</div>
+					<div class="modal-body">
+						<img src="images/coffee/arabicadark.png" class="img-fluid rounded-circle" width="100%">
+					</div>
+					<div class="modal-footer">
+						<p>₱130</p>
+						<span class="star-5 ms-5 text-start">&starf;&starf;&starf;&starf;&star;</span>
+					</div>
+				</div>
+			</div>	
+		</div>
+		<!--modals-End-->	
+	</div>
+
+	<!--Footer-->
+	<div class="container-fluid bg-coffee mt-5 pt-3">
+		<div class="row pt-2 pb-3">
+			<div class="col-md-2">
+				
+			</div>
+
+			<div class="col-md-4">
+				<div class="text-center"><img src="images/icons/logo3.png" alt="logo" width="50%" class="img-fluid"></div>
+			</div>
+			<div class="col-md-6">
+				<div class="row">
+					<div class="col-md-4">
+						<h5>Working hours</h5>
+						<p><b>Monday-Friday:</b> 8:00AM-5:00PM</p>
+						<p><b>Saturday-Sunday:</b> 6:00AM-12:00PM</p>
+					</div>
+					<div class="col-md-4">
+						<h5>Stay Connected</h5>
+						<a href="https://www.facebook.com"><img src="images/icons/facebook.png" width="20" class="img-fluid"></a> 
+						<a href="https://www.instagram.com"><img src="images/icons/instagram.png" width="20" class="img-fluid"></a>
+						<a href="https://twitter.com/?lang=en"><img src="images/icons/twitter.png" width="20" class="img-fluid"></a>
+					</div>
+					<div class="col-md-4"></div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-12 text-center">
+				<p>Copyright © 2019 KapeManic. All Rights Reserved.</p>
+			</div>
+		</div>
+	</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>

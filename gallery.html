@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Home</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="coffee-style.css">
+</head>
+<body>
+	<nav class="navbar navbar-expand-md bg-coffee" >
+		<div class="container-fluid">
+			<a class="navbar-brand" href="index.html">
+				<img src="images/icons/textlogo.png" width="30%" alt="text logo" class="img-fluid">
+			</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarcoffee" aria-controls="navbarcoffee" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarcoffee">
+				<ul class="navbar-nav me-auto mb-2 mb-md-0">
+					<li class="nav-item">
+						<a class="nav-link link-light" href="index.html">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link link-light" href="product.html">Product</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link link-light" href="location.html">Location</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link link-light" href="about.html">About</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link link-light" href="contact.html">Contact</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link link-dark active" aria-current="page" href="gallery.html">Gallery</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<div class="container-md text-center bg-milk">
+		<h1 class="display-1" id="topGallery">Gallery</h1>
+		<div id="carouselcoffee" class="carousel slide" data-bs-ride="carousel">
+			<div class="carousel-indicators">
+				<button type="button" data-bs-target="#carouselcoffee" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+				<button type="button" data-bs-target="#carouselcoffee" data-bs-slide-to="1" aria-label="Slide 2"></button>
+				<button type="button" data-bs-target="#carouselcoffee" data-bs-slide-to="2" aria-label="Slide 3"></button>
+			</div>
+			<div class="carousel-inner rounded">
+				<div class="carousel-item active">
+					<img src="images/gallery/photo2.jpg" class="d-block w-100" alt="gallery">
+					<div class="carousel-caption d-none d-md-block">
+						<h5>Come Visit</h5>
+						<p></p>
+					</div>
+				</div>
+				<div class="carousel-item">
+					<img src="images/gallery/photo5-1.jpg" class="d-block w-100" alt="gallery">
+					<div class="carousel-caption d-none d-md-block">
+						<h5>Have Fun</h5>
+						<p></p>
+					</div>
+				</div>
+				<div class="carousel-item">
+					<img src="images/gallery/photo8-1.jpg" class="d-block w-100" alt="gallery">
+					<div class="carousel-caption d-none d-md-block">
+						<h5>Make Coffee</h5>
+						<p></p>
+					</div>
+				</div>
+				<button class="carousel-control-prev" type="button" data-bs-target="#carouselcoffee" data-bs-slide="prev">
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Previous</span>
+				</button>
+				<button class="carousel-control-next" type="button" data-bs-target="#carouselcoffee" data-bs-slide="next">
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Next</span>
+				</button>
+			</div>
+		</div>
+		<div class="d-grid gap-2 d-md-flex fixed-bottom justify-content-end placethebutton">
+			<a href="#topGallery"><img src="images/icons/up2.png" class="img-fluid" width="50vw"></a>
+		</div>
+		<div class="container-md">
+			<div class="row mt-4 mb-5 g-3">
+				<div class="col-md-4">
+					<img src="images/gallery/photo1.jpg" class="img-fluid" width="100%">
+					<img src="images/gallery/photo6.jpg" class="img-fluid mt-3" width="100%">
+					<img src="images/gallery/photo4.jpg" class="img-fluid mt-3" width="100%">
+					<img src="images/gallery/photo13.jpg" class="img-fluid mt-3" width="100%">
+				</div>
+				<div class="col-md-4">
+					<img src="images/gallery/photo3.png" class="img-fluid" width="100%">
+					<img src="images/gallery/photo7.jpg" class="img-fluid mt-3" width="100%">
+					<img src="images/gallery/photo9.jpg" class="img-fluid mt-3" width="100%">
+					<img src="images/gallery/photo15.jpg" class="img-fluid mt-3" width="100%">
+				</div>
+				<div class="col-md-4">
+					<img src="images/gallery/photo10.jpg" class="img-fluid" width="100%">
+					<img src="images/gallery/photo11.jpg" class="img-fluid mt-3" width="100%">
+					<img src="images/gallery/photo12.png" class="img-fluid mt-3" width="100%">
+					<img src="images/gallery/photo14.jpg" class="img-fluid mt-3" width="100%">
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--Footer-->
+	<div class="container-fluid bg-coffee mt-5 pt-3">
+		<div class="row pt-2 pb-3">
+			<div class="col-md-2">
+				
+			</div>
+
+			<div class="col-md-4">
+				<div class="text-center"><img src="images/icons/logo3.png" alt="logo" width="50%" class="img-fluid"></div>
+			</div>
+			<div class="col-md-6">
+				<div class="row">
+					<div class="col-md-4">
+						<h5>Working hours</h5>
+						<p><b>Monday-Friday:</b> 8:00AM-5:00PM</p>
+						<p><b>Saturday-Sunday:</b> 6:00AM-12:00PM</p>
+					</div>
+					<div class="col-md-4">
+						<h5>Stay Connected</h5>
+						<a href="https://www.facebook.com"><img src="images/icons/facebook.png" width="20" class="img-fluid"></a> 
+						<a href="https://www.instagram.com"><img src="images/icons/instagram.png" width="20" class="img-fluid"></a>
+						<a href="https://twitter.com/?lang=en"><img src="images/icons/twitter.png" width="20" class="img-fluid"></a>
+					</div>
+					<div class="col-md-4"></div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-12 text-center">
+				<p>Copyright © 2019 KapeManic. All Rights Reserved.</p>
+			</div>
+		</div>
+	</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>
